@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techademy Classes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand heading"><i class="bi bi-journal-bookmark-fill"></i> Techademy Classes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item">
+                    <p class="nav-link welcome"><b>Hello,
+                            <?php
+                            date_default_timezone_set('Asia/Kolkata');
+                            $time = date("H");
+                            $message = '';
+                            if ($time >= 6 && $time < 12) {
+                                $message = 'Good Morning';
+                            } elseif ($time >= 12 && $time < 17) {
+                                $message = 'Good Afternoon';
+                            } elseif ($time >= 17 && $time < 22) {
+                                $message = 'Good Evening';
+                            } else {
+                                $message = 'Good Night';
+                            }
+                            echo $message;
+                            ?>
+                            !</b></p>
+                </li> -->
+            </ul>
+            <img src="img/bookslogo.png" alt="book-com" width="80px" style="margin-right:40px;">
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="front-content" style="width: 20rem;">   
+            <div class="welcome">
+                <img src="img/welcome.png" alt="Welcome">
+            </div>
+            <div class="preface">
+                <img src="img/preface.png" alt="Welcome">
+            </div>
+        </div>
+        <div class="card shadow-lg p-3 mb-5 card1" style="width: 20rem;">
+            <img class="card-img-top" src="img/liveclass.jpg" alt="Live Classes">
+            <div class="card-body">
+                <h5 class="card-title card-head"><b>Live Classes</b></h5>
+                <p class="card-text card-content">Here, You will get the content(assignment) of live classes conducted by Techademy.</p>
+                <p id="instructor"><b>
+                        <font style="color: white;">&nbsp; Instructor : Valan Sir </font>
+                    </b></p>
+                <a href="content/liveclasses/liveclasses.html" class="enter-button" role="button">Enter Class</a>
+            </div>
+        </div>
+        <div class="card shadow-lg p-3 mb-5" style="width: 20rem;">
+            <img class="card-img-top" src="img/elearning.jpg" alt="Digital Learning">
+            <div class="card-body">
+                <h5 class="card-title card-head"><b>Learning Platform</b></h5>
+                <p class="card-text card-content">Here, You will get the Assignment of courses on Techademy Digital Learning Platform.</p>
+                <p id="instructor"><b>
+                        <font style="color: white;">&nbsp; Platform : Techademy </font>
+                    </b></p>
+                <a href="content/learningplatform/learningplatform.html" class="enter-button" role="button">Enter Class</a>              
+            </div>
+        </div>
+    </div>
+    <p class="fixed">
+        <font style="font-family: monospace; color:grey">Developed By : Subhamay Dhara</font>
+    </p>
+</body>
+
+</html>
