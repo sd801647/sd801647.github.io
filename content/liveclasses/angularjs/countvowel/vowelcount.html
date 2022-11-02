@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vowel Count</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../../styles/style.css">
+</head>
+
+<body>
+    <br><br>
+    <div class="container">
+        <a href="vowelcountcode.html" class="btn-back" role="button"><i class="bi bi-caret-left-square-fill"></i> Back</a>
+        <br><br>
+        <h1>Vowel Count</h1>
+        <p>Enter the Sentence : </p>
+        <input type="text" id="sen" name="sen" ng-model="sen" onkeyup="countVowel()">
+
+        <script>
+            function countVowel() {
+                var sen = document.getElementById('sen').value;
+                var lenStr = sen.length;
+                let count = 0;
+                for(let i = 0; i < lenStr; i++) {
+                    if(sen[i] == 'a' || sen[i] == 'e' || sen[i] == 'i' || sen[i] == 'o' || sen[i] == 'u' || sen[i] == 'A' || sen[i] == 'E' || sen[i] == 'I' || sen[i] == 'O' || sen[i] == 'U') {
+                        count ++;
+                    }
+                }
+                document.getElementById("vcount").innerHTML = count.toString();   
+            }
+        </script>
+        <div ng-app = "">
+            <p><b>The answer is:
+                <br>
+                <span id="vcount" ng-bind="vcount"></span>
+            </b></p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    </div>
+</body>
+
+</html>
