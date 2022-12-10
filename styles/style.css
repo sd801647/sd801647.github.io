@@ -221,6 +221,13 @@
 	width: 170px;
 }
 
+.course-preview-python {
+	background-color: #306998;
+	color: #fff;
+	padding: 20px;
+	width: 170px;
+}
+
 .course-preview-c {
 	background-color: #050d82;
 	color: #fff;
@@ -237,6 +244,13 @@
 
 .course-preview-answer {
 	background-color: #075606;
+	color: #fff;
+	padding: 20px;
+	width: 170px;
+}
+
+.course-preview-output {
+	background-color: #d6b40b;
 	color: #fff;
 	padding: 20px;
 	width: 170px;
