@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Python</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../styles/style.css">
+    <script src="../../../scripts/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand heading"><i class="bi bi-journal-bookmark-fill"></i> Techademy Live Classes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item"> 
+                    <p class="nav-link welcome"><b>Hello,
+                            <?php
+                            date_default_timezone_set('Asia/Kolkata');
+                            $time = date("H");
+                            $message = '';
+                            if ($time >= 6 && $time < 12) {
+                                $message = 'Good Morning';
+                            } elseif ($time >= 12 && $time < 17) {
+                                $message = 'Good Afternoon';
+                            } elseif ($time >= 17 && $time < 22) {
+                                $message = 'Good Evening';
+                            } else {
+                                $message = 'Good Night';
+                            }
+                            echo $message;
+                            ?>
+                            !</b></p>
+                </li> -->
+            </ul>
+            <a href="../../../index.html" class="btn btn-home" role="button"><i class="bi bi-house-door-fill"></i>
+                Home</a>
+            <img src="../../../img/bookslogo.png" alt="book-com" width="80px" style="margin-right:40px;">
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="front-content" style="width: 20rem;">
+            <div class="letstart">
+                <img src="../../../img/livestart.png" alt="Welcome">
+            </div>
+        </div>
+
+        <div style="width: 56rem;">
+            <div class="col">
+                <div class="back-button-div">
+                    <a href="pythoncontent.html" style='margin-right: 15rem;' class="btn-back" role="button"><i
+                            class="bi bi-caret-left-square-fill"></i> Back</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="courses-container">
+                    <div class="course">
+                        <div class="course-preview-python">
+                            <h7>Code in</h7>
+                            <h5>Python</h5>
+                        </div>
+                        <div class="course-info">
+                            <h7>Introduction to Python</h7>
+                            <p>
+                            <textarea disabled cols="70" rows="7">
+    print("Welcome to Python")
+    a = 10
+    name = "Subhamay"
+    print("Value of a", a)
+    print("Value of name", name)
+    print("Address of a", id(a))
+    print("Address of name", id(name))
+    print("Type of a", type(a))
+    print("Type of name", type(name))
+    a = "Hello"
+    print("Value of a", a)
+    print("Address of a", id(a))
+    print("Type of a", type(a))</textarea>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="courses-container">
+                    <div class="course">
+                        <div class="course-preview-output">
+                            <h7>Output in</h7>
+                            <h5>Python</h5>
+                        </div>
+                        <div class="course-info">
+                            <h7>Output of the Above Code</h7>
+                            <p>
+                            <textarea disabled cols="70" rows="4">
+    Welcome to Python
+    Value of a 10
+    Value of name Subhamay
+    Address of a 1644986171920
+    Address of name 1644991724592
+    Type of a <class 'int'>
+    Type of name <class 'str'>
+    Value of a Hello
+    Address of a 1644991772336
+    Type of a <class 'str'></textarea>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="floating-text">
+                <p>Developed By : Subhamay Dhara</p>
+            </div> -->
+        </div>
+    </div>
+    <p class="fixed">
+        <font style="font-family: monospace; color:grey">Developed By : Subhamay Dhara</font>
+    </p>
+</body>
+
+</html>
