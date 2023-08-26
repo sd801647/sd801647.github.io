@@ -1,4 +1,4 @@
-const targetDate = new Date("2023-08-27T01:25:00").getTime(); // Set your target date and time here
+const targetDate = new Date("2023-08-27T12:00:00").getTime(); // Set your target date and time here
 const timerElement = document.getElementById("countdown");
 const giftElement = document.getElementById("gift");
 
