@@ -18,7 +18,7 @@ function updateCountdown() {
     document.getElementById("seconds").textContent = seconds
 
     if (timeLeft <= 0) {
-        timerElement.innerHTML = "It's Time to reveal ! Sorry for late wishes...";
+        timerElement.innerHTML = "   It's Time to reveal ! Sorry for late wishes...";
         giftElement.classList.remove("hidden");
     }
 }
