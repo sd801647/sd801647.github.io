@@ -44,6 +44,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
 
+        #more {display: none;}
+
         footer {
             margin-top: 50px;
             color: #333;
@@ -57,7 +59,7 @@
 
     <div class="image-container">
         <img class="friend-pic" src="img/1.jpg" alt="Friend 1's Image">
-        <p>"Wishing my wonderful friend a Diwali as bright and joyful as your smile! May this festival brings you all the happiness in the world."
+        <p>"Wishing my wonderful friend a Diwali as bright and joyful as your smile! May this festival bring you all the happiness in the world."
             <br> # হয়তো তোমার জন্যই হাসি
         </p>
         <img class="friend-pic" src="img/2.jpg" alt="Friend 2's Image">
@@ -67,7 +69,9 @@
 
         <img class="friend-pic" src="img/3.jpg" alt="Friend 3's Image">
         <p>"Happy Diwali to an amazing friend! May the festival bring prosperity, success, and endless joy to your life."
-            <br> # এভাবে তাকিও না
+            <br> # এভাবে তাকিও না <span id="dots">...</span>
+            <br><span id="more">একজন মানুষের সৌন্দর্য ফুটে ওঠে তার চোখে । অনেকেই আছে যারা মেয়েদের চোখ দেখেই প্রেমে পড়ে যায়, আমি হয়তো তাদেরই মধ্যে একজন, কিন্তু আগে বা পরে কোনোদিন হয়নি, একবারই হয়েছিল । চোখের মায়া বড় অদ্ভুত মায়া যার প্রেমে পড়লে আর কোন কিছুই ভালো লাগেনা। কারণ চোখের প্রেম হচ্ছে পবিত্র প্রেম । মানুষ মুখে মিথ্যা কথা বলতে পারে কিন্তু চোখে সব ধড়া পরে যায়। আমি চাই না আমার মাথার মধ্যে ঘুরতে থাকা পৃথিবীটা স্তব্ধ হয়ে যাক, ভুলে যাই দিনরাতের হিসাব, চলে যাক সব কষ্টের মরশুম, ফিরে আসুক সুখের ঘূর্ণিঝড়। আমিও আর পাঁচটা সাধারণ মানুষের মতো সুখ-দুঃখের ঘানি টেনে বাঁচতে চাই। ভুলে যেতে চাই না কর্মজীবনের সব হিসাব, সব দায়িত্ব, কর্তব্যবোধ।</span>
+            <a onclick="myFunction()" id="myBtn">কারণ জানতে চাও?</a>
         </p>
 
         <img class="friend-pic" src="img/4.jpeg" alt="Friend 3's Image">
@@ -79,4 +83,21 @@
         <p>Created with ❤️ by Subho</p>
     </footer>
 </body>
+<script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "কারণ জানতে চাও?";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "<br>বুঝলাম";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
 </html>
