@@ -30,6 +30,20 @@
             
         }
 
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .friend-pic {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
         footer {
             margin-top: 50px;
             color: #333;
@@ -40,6 +54,26 @@
     <marquee behavior="" direction=""><h1>Happy Diwali, Misty!!</h1></marquee>
     <img id="diya-img" src="img/diya_image.png" alt="Diya Image">
     <p>Wishing you a Diwali filled with the radiant glow of joy, the warmth of love, and the sparkle of laughter. May the festival of lights illuminate your life with boundless happiness and bring you closer to your dreams.</p>
+
+    <div class="image-container">
+        <img class="friend-pic" src="img/1.jpg" alt="Friend 1's Image">
+        <p>"Wishing my wonderful friend a Diwali as bright and joyful as your smile! May this festival bring you all the happiness in the world."
+            <br> # হয়তো তোমার জন্যই হাসি
+        </p>
+        <img class="friend-pic" src="img/2.jpg" alt="Friend 2's Image">
+        <p>"On this auspicious occasion, sending you warm Diwali wishes! May your days be filled with light and laughter."
+            <br> # চিরকাল এভাবেই বাচ্চা হয়ে থেকো
+        </p>
+
+        <img class="friend-pic" src="img/3.jpg" alt="Friend 3's Image">
+        <p>"Happy Diwali to an amazing friend! May the festival bring prosperity, success, and endless joy to your life."
+            <br> # এভাবে তাকিও না
+        </p>
+
+        <img class="friend-pic" src="img/4.jpeg" alt="Friend 3's Image">
+        <p>যদি কখনও খুব রেগে যাও, তোমার যা ইচ্ছে হয় করো, কিন্তু রেগে থেকে কথা বলা বন্ধ করো না, ওটার জন্যই হয়তো ভালো থাকি...
+        </p>
+    </div>
 
     <footer>
         <p>Created with ❤️ by Subho</p>
