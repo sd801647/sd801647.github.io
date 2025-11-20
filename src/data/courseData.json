@@ -1,0 +1,838 @@
+{
+  "courseName": "B.Sc. In Psychology",
+  "collegeName": "Study Portal",
+  "collegeTagline": "Your Gateway to Knowledge",
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "subjects": [
+        {
+          "id": "BSCPY-101",
+          "name": "Introduction To Psychology",
+          "code": "BSCPY-101",
+          "chapters": [
+            {
+              "id": "module1",
+              "name": "Module 1: Basic concept of Psychology",
+              "topics": [
+                {
+                  "id": "topic1",
+                  "title": "Meaning, nature, and scope of Psychology; Psychology as a science",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Introduction to Psychology.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Mind Map - Psychology Basics",
+                      "url": "https://via.placeholder.com/800x600/4A90E2/ffffff?text=Psychology+Mind+Map"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture 1 - Introduction",
+                      "duration": "45 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "module2",
+              "name": "Module 2: Different schools and methods of Psychology",
+              "topics": [
+                {
+                  "id": "topic2",
+                  "title": "Schools (Structuralism, Functionalism, Psychoanalytic, Behavioral, Humanistic), Branches (Pure and Applied), and Methods (Experimental and Non-experimental, Observational, Introspection) of Psychology",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Schools of Psychology.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Comparison Chart - Psychology Schools",
+                      "url": "https://via.placeholder.com/800x600/50C878/ffffff?text=Schools+Comparison"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture 2 - Schools of Thought",
+                      "duration": "50 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "module3",
+              "name": "Module 3: Emotion, Motivation, Intelligence",
+              "topics": [
+                {
+                  "id": "topic3a",
+                  "title": "Emotion - Theories (James Lange, Canon Bard, Schachter Singer, Lazarus, Multilevel)",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Theories of Emotion.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Emotion Theories Diagram",
+                      "url": "https://via.placeholder.com/800x600/FF6B6B/ffffff?text=Emotion+Theories"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture 3 - Understanding Emotions",
+                      "duration": "55 mins",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "topic3b",
+                  "title": "Motivation - Theories (Maslow, Mc Gregor, McClelland, Rogers, Murray)",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Motivation Theories.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Maslow's Hierarchy of Needs",
+                      "url": "https://via.placeholder.com/800x600/FFD93D/ffffff?text=Motivation+Hierarchy"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture 4 - Motivation Concepts",
+                      "duration": "48 mins",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "topic3c",
+                  "title": "Intelligence - Theories (Spearman, Guildford, Thurstone, Sternberg, Thorndike, Cattell)",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Intelligence Theories.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Types of Intelligence Chart",
+                      "url": "https://via.placeholder.com/800x600/A78BFA/ffffff?text=Intelligence+Types"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture 5 - Intelligence & IQ",
+                      "duration": "52 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "module4",
+              "name": "Module 4: Psychology and other fields",
+              "topics": [
+                {
+                  "id": "topic4",
+                  "title": "Psychology in relation to other fields (Neuroscience, Sociology, Genetics)",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Interdisciplinary Psychology.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Psychology & Related Fields",
+                      "url": "https://via.placeholder.com/800x600/34D399/ffffff?text=Interdisciplinary+Connections"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture 6 - Cross-disciplinary Connections",
+                      "duration": "46 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "BSCPY-191",
+          "name": "PRACTICAL BSCPY191",
+          "code": "BSCPY-191",
+          "chapters": [
+            {
+              "id": "practical1",
+              "name": "Practical on assessing intelligence using Raven's Progressive Matrices, Koh's Block Design",
+              "topics": [
+                {
+                  "id": "prac1",
+                  "title": "Intelligence Assessment Practicals",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Practical Manual - Intelligence Tests.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Sample Test Items",
+                      "url": "https://via.placeholder.com/800x600/F472B6/ffffff?text=Intelligence+Tests"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Practical Demo - Intelligence Assessment",
+                      "duration": "60 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "BSCPY-102",
+          "name": "Biological Psychology",
+          "code": "BSCPY-102",
+          "chapters": [
+            {
+              "id": "bio-module1",
+              "name": "Module 1: Basic concept of Nervous System",
+              "topics": [
+                {
+                  "id": "bio-topic1",
+                  "title": "Basic unit of the nervous system: \nNeuron (Structure, function, nerve impulse conduction within neuron and between neuron) \nDifferent kinds of Neurotransmitters.",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Nervous System Basics.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Nervous System Diagram",
+                      "url": "https://via.placeholder.com/800x600/60A5FA/ffffff?text=Nervous+System"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture - Nervous System Introduction",
+                      "duration": "",
+                      "url": "https://drive.google.com/file/d/1SlXhoC3ManLVp2BkOLMvHcWrpz0lp99l/view"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bio-module2",
+              "name": "Module 2: Different Structure and function of the Central Nervous System",
+              "topics": [
+                {
+                  "id": "bio-topic2",
+                  "title": "Structure and function of the Central Nervous System (Brain and Spinal Cord)",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "CNS Structure & Function.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Brain Anatomy",
+                      "url": "https://via.placeholder.com/800x600/FB923C/ffffff?text=Brain+Structure"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture - CNS Deep Dive",
+                      "duration": "55 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bio-module3",
+              "name": "Module 3: Structure and function of the Peripheral Nervous System",
+              "topics": [
+                {
+                  "id": "bio-topic3",
+                  "title": "Structure and function of the Peripheral Nervous System (Somatic Nervous System, Autonomic Nervous System)",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "PNS Overview.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture - PNS Function",
+                      "duration": "45 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bio-module4",
+              "name": "Module 4: Mechanisms of Sodium Potassium Pump",
+              "topics": [
+                {
+                  "id": "bio-topic4",
+                  "title": "The physiology and clinical significance of Sodium Potassium Pump.",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Ion Pump Mechanism.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Na-K Pump Animation",
+                      "url": "https://via.placeholder.com/800x600/10B981/ffffff?text=Ion+Pump"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "bio-module5",
+              "name": "Module 5: Biological correlates of Emotion, Learning, and Memory",
+              "topics": [
+                {
+                  "id": "bio-topic5",
+                  "title": "Biological correlates of Emotion, Learning, and Memory",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Neurobiology of Behavior.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Lecture - Brain & Behavior",
+                      "duration": "58 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "BSCPY-192",
+          "name": "PRACTICAL BSCPY192",
+          "code": "BSCPY-192",
+          "chapters": [
+            {
+              "id": "practical2",
+              "name": "Practical on identification of emotional states through facial expression",
+              "topics": [
+                {
+                  "id": "prac2",
+                  "title": "Facial Expression Recognition",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Emotion Recognition Manual.pdf",
+                      "url": "#"
+                    },
+                    {
+                      "type": "image",
+                      "title": "Facial Expression Examples",
+                      "url": "https://via.placeholder.com/800x600/EC4899/ffffff?text=Facial+Expressions"
+                    }
+                  ],
+                  "recordings": [
+                    {
+                      "title": "Practical Demo - Emotion Recognition",
+                      "duration": "40 mins",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "MIC-101",
+          "name": "Computer Fundamental",
+          "code": "MIC-101",
+          "chapters": [
+            {
+              "id": "comp1",
+              "name": "Unit 1: Basic Computer Concepts",
+              "topics": [
+                {
+                  "id": "comp-topic1",
+                  "title": "Introduction to Computers",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Computer Basics.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "comp2",
+              "name": "Unit 2: Computer Hardware",
+              "topics": [
+                {
+                  "id": "comp-topic2",
+                  "title": "Hardware Components",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Computer Hardware.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "comp3",
+              "name": "Unit 3: Meaning of Software",
+              "topics": [
+                {
+                  "id": "comp-topic3",
+                  "title": "Software Overview",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Software Fundamentals.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "comp4",
+              "name": "Unit 4: Programming Language & Algorithms",
+              "topics": [
+                {
+                  "id": "comp-topic4",
+                  "title": "Programming Concepts",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Programming Basics.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "comp5",
+              "name": "Unit 5: Computer Applications",
+              "topics": [
+                {
+                  "id": "comp-topic5",
+                  "title": "Application Software",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Computer Applications.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SEC-181",
+          "name": "Life Skills and Personality Development",
+          "code": "SEC-181",
+          "chapters": [
+            {
+              "id": "life1",
+              "name": "Unit 1: Career & Professional Skills",
+              "topics": [
+                {
+                  "id": "life-topic1",
+                  "title": "Career Development",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Career Skills.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "life2",
+              "name": "Unit 2: Attitude & Motivation",
+              "topics": [
+                {
+                  "id": "life-topic2",
+                  "title": "Building Positive Attitude",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Attitude & Motivation.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "life3",
+              "name": "Unit 3: Introductions to Soft Skills",
+              "topics": [
+                {
+                  "id": "life-topic3",
+                  "title": "Soft Skills Overview",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Soft Skills Guide.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "life4",
+              "name": "Unit 4: The various branches of Communication Skills",
+              "topics": [
+                {
+                  "id": "life-topic4",
+                  "title": "Communication Skills",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Communication Techniques.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "VAC-181B",
+          "name": "Health & Wellness",
+          "code": "VAC-181B",
+          "chapters": [
+            {
+              "id": "health1",
+              "name": "Unit 1: Introduction to Health & Wellness",
+              "topics": [
+                {
+                  "id": "health-topic1",
+                  "title": "Health & Wellness Basics",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Health Introduction.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "health2",
+              "name": "Unit 2: Management of Health & Wellness",
+              "topics": [
+                {
+                  "id": "health-topic2",
+                  "title": "Health Management Strategies",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Health Management.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "health3",
+              "name": "Unit 3: Anxiety, Stress and Aging",
+              "topics": [
+                {
+                  "id": "health-topic3",
+                  "title": "Stress Management",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Stress & Anxiety.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "GE-1B-08",
+          "name": "Introduction to Interdisciplinary Health Science",
+          "code": "GE-1B-08",
+          "chapters": [
+            {
+              "id": "inter1",
+              "name": "Module 1: Concept of Health",
+              "topics": [
+                {
+                  "id": "inter-topic1",
+                  "title": "Understanding Health",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Health Concepts.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "inter2",
+              "name": "Module 2: Evaluation & Practice of Health Education in India",
+              "topics": [
+                {
+                  "id": "inter-topic2",
+                  "title": "Health Education in India",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Health Education.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "inter3",
+              "name": "Module 3: Health Communication",
+              "topics": [
+                {
+                  "id": "inter-topic3",
+                  "title": "Communicating Health Information",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Health Communication.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "inter4",
+              "name": "Module 4: Role of IT in Health Sector",
+              "topics": [
+                {
+                  "id": "inter-topic4",
+                  "title": "IT in Healthcare",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Health IT.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "inter5",
+              "name": "Module 5: Basic First Aid Techniques",
+              "topics": [
+                {
+                  "id": "inter-topic5",
+                  "title": "First Aid Basics",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "First Aid Manual.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AECC-101",
+          "name": "English & Professional Communication",
+          "code": "AECC-101",
+          "chapters": [
+            {
+              "id": "eng1",
+              "name": "Unit 1: Grammar",
+              "topics": [
+                {
+                  "id": "eng-topic1",
+                  "title": "English Grammar Fundamentals",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Grammar Guide.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "eng2",
+              "name": "Unit 2: Communication",
+              "topics": [
+                {
+                  "id": "eng-topic2",
+                  "title": "Professional Communication",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Communication Skills.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "eng3",
+              "name": "Unit 3: Reading Skills",
+              "topics": [
+                {
+                  "id": "eng-topic3",
+                  "title": "Effective Reading Strategies",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Reading Skills.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            },
+            {
+              "id": "eng4",
+              "name": "Unit 4: Presentation Skills",
+              "topics": [
+                {
+                  "id": "eng-topic4",
+                  "title": "Public Speaking & Presentations",
+                  "notes": [
+                    {
+                      "type": "pdf",
+                      "title": "Presentation Skills.pdf",
+                      "url": "#"
+                    }
+                  ],
+                  "recordings": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "subjects": []
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "subjects": []
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "subjects": []
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "subjects": []
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "subjects": []
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "subjects": []
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "subjects": []
+    }
+  ]
+}
